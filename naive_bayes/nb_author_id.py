@@ -35,6 +35,13 @@ print "training time:", round(time()-t0, 3), "s"
 
 pred= clf.predict(features_test)
 print "predicting time:", round(time()-t0, 3), "s"
+
+
+#########################################################
+
+
+#########################################################
+### your code goes here ###
 from sklearn.metrics import accuracy_score
 
 print accuracy_score(pred, labels_test)
@@ -44,13 +51,5 @@ print accuracy_score(pred, labels_test)
 ## Accuracy gotten is 0.9732650739476678
 ## Training Timing gotten: 13.301 s
 ## Predicting Timing gotten: 15.222 s  
-
-
-
-#########################################################
-### your code goes here ###
-
-
-#########################################################
 
 
