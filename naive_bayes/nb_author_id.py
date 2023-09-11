@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 """ 
     This is the code to accompany the Lesson 1 (Naive Bayes) mini-project. 
@@ -46,10 +46,20 @@ from sklearn.metrics import accuracy_score
 
 print accuracy_score(pred, labels_test)
 
-#########################################################
+##############################################################
+'''
+You Will be Required to record time for Training and Predicting 
+The Code Given on Udacity Website is in Python-2
+The Following Code is Python-3 version of the same code
+'''
 
 ## Accuracy gotten is 0.9732650739476678
 ## Training Timing gotten: 13.301 s
 ## Predicting Timing gotten: 15.222 s  
 
 
+# t0 = time()
+# # < your clf.predict() line of code >
+# print("Predicting Time:", round(time()-t0, 3), "s")
+
+##############################################################
